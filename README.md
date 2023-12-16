@@ -1,10 +1,11 @@
 # Dragon OpenGL
 
 Renders variants of the Stanford Dragon (1996) using up-to-date OpenGL code. [GLFW](https://www.glfw.org/) is used as the window manager.
-[glad](https://github.com/Dav1dde/glad) is used as the context loader.
+[glad](https://github.com/Dav1dde/glad) is used as the context loader. OpenGL profile 4.6 is required.
 
-This is a university project and is not productionized, but
-could serve as a fair "starter" project since many concepts and examples from various OpenGL tutorials are used.
+This is a university project and is not productionized, but could serve as a fair "starter" project since many concepts and examples from various OpenGL tutorials are used. 
+
+There is an emphasis on implementing a normal mapping in glsl, secondarily on flat and gouraud shading for comparison across each shading method.
 
 ## Credits
 ### Meshes
@@ -63,6 +64,7 @@ The package *xorg-dev* may be necessary.
 ### Windows
 Only tested with bundled mingw in CLion.
 
+### Example build commands
 ```bash
 mkdir build
 cd build/
