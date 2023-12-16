@@ -1,0 +1,12 @@
+/.idea
+/build
+/cmake-build-debug/
+/cmake-build-release/
+/compile_commands.json
+/.ccls-cache
+/.clangd
+/.cmake-format.yaml
+/.clang-format
+/data/bunny.off
+/data/dragon.obj
+/data/dragon.off
